@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio / Paulina Reszka</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="logo2.png" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="index.html"><img class="logo" src="logo2.png"></a>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="index.html">HOME</a></li>
+            <li class="nav-item"><a href="about.html">ABOUT</a></li>
+            <li class="nav-item"><a href="CV Paulina Lis.pdf" target="_blank">MY CV</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <main>
+        <div class="behance">
+            <img src="B_LABIFY/cover2.png" class="header-photo">
+        </div>
+        <div class="two-columns-wrapper">
+            <div class="column">
+                <h1>Overview</h1>
+                <p><b>Labify is a concept mobile product designed to improve access to preventive healthcare by enabling users to order and 
+                    schedule at-home blood tests.</b><br><br>
+                    The product focuses on reducing friction in the blood testing process by allowing users to select tests, schedule home visits, and track results in one seamless experience.</p>
+            </div>
+            <div class="column">
+                <h1>My role</h1>
+                <p>Product Designer (end-to-end) <br>
+                    Research, UX, UI, product strategy & decision-making
+                </p>
+            </div>
+        </div>
+
+        <div class="project-paragraph">
+            <h1>Why I started this project?</h1>
+            <p>I initiated this project to explore how digital products can improve access to healthcare services,
+                 particularly for people with limited time or mobility.<br><br>
+
+                Traditional blood testing processes are often fragmented, time-consuming, and poorly adapted to users’ everyday lives. 
+                <b>This project allowed me to define the problem space, validate key user needs, and make product decisions balancing convenience, trust, and medical reliability.</b>
+            </p>
+        </div>
+
+        <div class="project-paragraph">
+            <h1>Problem Statement and Possible Solution</h1>
+        </div>
+
+        <div class="two-columns-wrapper">
+            <div class="column">
+                <h5>Problem</h5>
+                <p>The current process of ordering and conducting blood tests is often inconvenient and time-consuming, 
+                    requiring patients to visit clinics or laboratories and endure long wait times. This creates a significant 
+                    barrier to healthcare access and monitoring for many individuals. There is a need for a more convenient and 
+                    accessible solution that enables patients to order and track blood tests from the comfort of their homes.<br>
+                    The main challenge was not only access, but also <b>building trust in a remote medical service</b>.
+                </p>
+            </div>
+            <div class="column">
+                <h5>Solution</h5>
+                <p>A user-friendly and accessible mobile application that allows patients to easily <b>order and track</b> blood tests from home. 
+                    The app features an intuitive interface that guides users through selecting the tests they need, scheduling a specialist 
+                    visit for blood collection, and receiving their results.<br>
+                    The solution prioritizes clarity, transparency, and guidance at each step to reduce uncertainty and increase user confidence.
+                </p>
+            </div>
+        </div>
+        <div class="project-paragraph">
+            <h1>Research</h1>
+            <h3>Research approach</h3>
+
+            <p>To better understand user needs and constraints around home blood testing, I conducted qualitative interviews with 
+                9 participants and a quantitative survey with 15 respondents.<br>
+
+                The goal was to identify the main barriers, decision factors, and trust concerns related to ordering medical tests 
+                outside of traditional clinics.
+            </p>
+
+            <h3>Key insights</h3>
+
+                <ul>
+                    <li>Time, not price, is the main barrier – users are willing to pay more to avoid long waiting times and travel.</li>
+                    <li>Trust is a critical adoption factor – users are concerned about professionalism, data privacy, and medical reliability.</li>
+                    <li>Most users already avoid public clinics, which indicates readiness for private, at-home solutions.</li>
+                    <li>Home testing is perceived as a convenience upgrade, not a replacement for medical quality.</li>
+                </ul>
+                <p>These insights directly informed the scope and priorities of the initial product version.</p>
+        </div>
+
+
+        <div class="behance">
+            <img src="B_LABIFY/quiz.png" class="project-photos">
+        </div>
+
+        <div class="project-paragraph">
+            <h1>Product implications & decisions</h1>
+
+            <p>Based on the research, I made the following product decisions:</p>
+            <ul>
+                <li>Prioritized fast and flexible scheduling over advanced personalization features.</li>
+                <li>Designed the onboarding to build trust early, focusing on clarity, transparency, and credentials of medical staff.</li>
+                <li>Made test history and results access a core feature, not an add-on.</li>
+                <li>Limited the initial scope to a small, well-explained set of tests to reduce cognitive load and uncertainty.</li>
+                <li>Chose in-app communication as the primary channel, as users strongly preferred app-based interactions over phone calls.</li>
+            </ul>
+            I intentionally deprioritized advanced personalization and recommendation features to focus on trust, clarity, and core functionality in the first release.
+        </div>
+
+
+        <div class="project-paragraph">
+            <h1>User Persona</h1>
+
+            <p>This persona represents the primary user segment identified during research and was used to guide key product decisions.<br>
+                Anna represents users who value convenience and time efficiency but require a high level of trust and medical reliability before adopting a home testing service.
+            </p>
+        </div>
+        <div class="behance">
+            <img src="B_LABIFY/persona.png" class="project-photos">
+        </div>
+        <div class="project-paragraph">
+            <p>Based on Anna’s needs and constraints, I made the following decisions:</p>
+            <ul>
+                <li>Prioritized <b>fast scheduling and minimal steps over feature richness.</b></li>
+                <li>Designed onboarding to <b>explicitly communicate medical credibility and data security.</b></li>
+                <li>Ensured <b>test history access is always visible and easy to find.</b></li>
+                <li>Avoided complex medical language in favor of <b>clear, reassuring copy.</b></li>
+                <li>Designed flows that allow ordering tests for <b>family members</b>, not only for oneself.</li>
+            </ul>
+        </div>
+        <div class="project-paragraph">
+            <h1>Empathy Map</h1>
+
+            <p>This empathy map synthesizes emotional and behavioral insights that directly informed the problem definition and core product priorities.
+            </p>
+        </div>
+        <div class="behance">
+            <img src="B_LABIFY/empathy.png" class="project-photos">
+        </div>
+        <div class="project-paragraph">
+            <p>Key takeaways from empathy mapping:</p>
+            <ul>
+                <li>Emotional friction (anxiety and uncertainty) is as important as functional friction (time and travel).</li>
+                <li>Trust concerns extend beyond test accuracy to the entire service experience.</li>
+                <li>Waiting and unpredictability are stronger pain points than price.</li>
+                <li>Users actively seek social proof before committing to medical services.</li>
+                <li>Clear guidance and reassurance are required throughout the flow.</li>
+            </ul>
+            <p>These insights directly shaped the problem definition and initial product scope.</p>
+        </div>
+        <div class="project-paragraph">
+            <h1>User Journey Map</h1>
+
+            <p>This journey map visualizes the current-state experience of a traditional blood test and highlights the key pain points the product aims to eliminate.
+            </p>
+        </div>
+        <div class="behance">
+            <img src="B_LABIFY/journey.png" class="project-photos">
+        </div>
+        <div class="project-paragraph">
+            <p>Based on the journey analysis, the following opportunities were identified:</p>
+            <ul>
+                <li>Eliminate physical waiting time by enabling <b>at-home blood collection.</b></li>
+                <li>Reduce uncertainty by providing <b>clear scheduling and real-time status updates.</b></li>
+                <li>Remove the need for repeated visits by making <b>results accessible digitally.</b></li>
+                <li>Support time-constrained users by allowing <b>flexible date selection.</b></li>
+                <li>Extend value by enabling <b>test ordering for family members.</b></li>
+            </ul>
+            <p>These opportunities directly informed the definition of the core product flow and MVP scope.</p>
+        </div>
+
+        <div class="project-paragraph">
+            <h1>User Flow</h1>
+
+            <p>This user flow represents the core MVP experience focused on fast test ordering, minimal steps, and early trust-building.</p>
+        </div>
+        <div class="behance">
+            <img src="B_LABIFY/flow.png" class="project-photos">
+        </div>
+
+        <div class="project-paragraph">
+            <p>Key decisions behind this flow:</p>
+            <ul>
+                <li>Centralized all primary actions on the home screen to support quick decision-making.</li>
+                <li>Designed multiple entry points to test selection (search, categories, sets) to match different user behaviors.</li>
+                <li>Included patient selection early to support ordering tests for family members.</li>
+                <li>Minimized the checkout process to essential steps only.</li>
+                <li>Prioritized date selection after test choice to align with user expectations.</li>
+            </ul>
+            <p>This flow directly informed the wireframes and interaction design of the MVP screens.</p>
+        </div>
+
+        <div class="project-paragraph">
+            <h1>Information architecture & navigation decisions</h1>
+
+            <p>Card sorting was used as a supporting method to validate category groupings and navigation labels.</p>
+        </div>
+        <div class="behance">
+            <img src="B_LABIFY/cards.png" class="project-photos">
+        </div>
+
+        <div class="project-paragraph">
+
+            <p>The information architecture was designed to support fast decision-making, reduce cognitive load, and align with users’ 
+                mental models identified during research.</p>
+        </div>
+        <div class="behance">
+            <img src="B_LABIFY/information-kopia.png" class="project-photos">
+        </div>
+        <div class="project-paragraph">
+            <p>Key decisions behind the information architecture:</p>
+            <ul>
+                <li>Grouped tests under a single Tests section to avoid decision paralysis.</li>
+                <li>Separated Cart as a standalone area to clearly distinguish selection from checkout.</li>
+                <li>Placed Test history under Profile to align with users’ expectations around personal medical data.</li>
+                <li>Prioritized Search and Categories to support different discovery behaviors.</li>
+                <li>Limited top-level navigation to reduce cognitive load for first-time users.</li>
+                <li>Ensured critical actions are reachable within two taps from the home screen.</li>
+            </ul>
+        </div>
+
+        <div class="project-paragraph">
+            <h1>Core screens (pre-validation)</h1>
+
+            <p><b>These high-fidelity wireframes represent the first complete version of the MVP used for usability testing and feedback validation.</b>
+                The goal at this stage was not visual polish, but validating structure, flow clarity, and trust-related content before moving into visual design.</p>
+        </div>
+        <div class="behance">
+            <img src="B_LABIFY/wireframes-kopia.png" class="project-photos">
+        </div>
+
+        <div class="project-paragraph">
+            <h1>Validation & iteration</h1>
+
+            <p>Screens were validated through lightweight usability testing to identify friction points in test discovery, selection, and decision-making.
+                Based on the findings, the interface was iterated to improve clarity, reduce cognitive load, and strengthen trust-related signals.</p>
+            
+            <h3>Test sets (home screen)</h3>
+            <p><b>Insight:</b> Users struggled to understand what differentiates test sets at a glance. <br>
+                <b>Decision:</b> Added short descriptions to clarify purpose and intended use.<br>
+                <b>Outcome:</b> Faster comparison and more confident selection.</p>
+
+                <div class="behance">
+                    <img src="B_LABIFY/feedback1.png" class="project-photos">
+                </div>
+        </div>
+
+        
+
+        <div class="project-paragraph">
+            <h3>Test selection list</h3>
+            <p><b>Insight:</b> A long list of individual tests felt overwhelming and hard to scan. <br>
+                <b>Decision:</b> Grouped tests and improved visual hierarchy.<br>
+                <b>Outcome:</b> Reduced cognitive load and improved scannability.</p>
+
+                <div class="behance">
+                    <img src="B_LABIFY/feedback2.png" class="project-photos">
+                </div>
+        </div>
+
+        <div class="project-paragraph">
+            <h3>Product card (test set)</h3>
+            <p><b>Insight:</b> Users needed more reassurance before committing to a test set.<br>
+                <b>Decision:</b> Expanded the product card with detailed information, preparation guidance, and related tests.<br>
+                <b>Outcome:</b> Increased trust and perceived medical credibility.</p>
+
+                <div class="behance">
+                    <img src="B_LABIFY/feedback3.png" class="project-photos">
+                </div>
+        </div>
+
+        
+
+        
+        
+
+        <div class="project-paragraph">
+            <h1>Design system foundations</h1>
+
+            <p>To ensure consistency, scalability, and trust across the product, I defined a set of foundational design principles 
+                covering color, typography, and core UI elements.<br>
+                The visual system was designed to reinforce medical credibility, support readability, and remain flexible for future feature expansion.</p>
+        </div>
+        <div class="behance">
+            <img src="B_LABIFY/colors.png" class="project-photos">
+        </div>
+
+        <div class="project-paragraph">
+            <h1>Visual design principles</h1>
+            <p>Key decisions behind the information architecture:</p>
+            <ul>
+                <li><b>Clarity over decoration</b> – interfaces prioritize readability and task completion</li>
+                <li><b>Trust through consistency</b> – predictable layouts and restrained visuals reduce uncertainty.</li>
+                <li><b>Scalable simplicity</b> – components and layouts are designed to accommodate future features.</li>
+            </ul>
+        </div>
+        <div class="behance">
+            <img src="B_LABIFY/design.png" class="project-photos">
+        </div>
+
+
+        <div class="project-paragraph">
+            <h1>High-Fidelity Prototype</h1>
+
+            <p>A high-fidelity prototype was created to demonstrate the end-to-end MVP experience and support stakeholder communication.</p>
+                        
+            <iframe class="figma" src="https://embed.figma.com/proto/FR44GNtMVUi8DZSB0dvXGN/Labify?page-id=0%3A1&node-id=1600-4305&node-type=frame&viewport=-667%2C566%2C0.16&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1600%3A4305&embed-host=share" allowfullscreen></iframe>
+
+        </div>
+
+
+        <div class="project-paragraph">
+            <h1>Outcome & learnings</h1>
+            <h3>What this project demonstrates</h3>
+            <p>This project demonstrates my ability to lead an end-to-end product design process - from problem discovery and user 
+                research to defining MVP scope, validating assumptions through usability testing, and iterating toward a scalable solution.</p>
+            <h3>Key outcomes</h3>
+            <p>As a result of the design and validation process:</p>
+            <ul>
+                <li>A clear MVP experience was defined, focused on fast test ordering, minimal friction, and early trust-building.</li>
+                <li>Key decision points in test selection and checkout were simplified to reduce cognitive load.</li>
+                <li>Trust and medical credibility were reinforced through information hierarchy, content clarity, and visual consistency.</li>
+                <li>The product was designed to support ordering tests for both individual users and family members.</li>
+            </ul>
+            <h3>What I would do next</h3>
+            <p>If I were to continue developing this product, I would explore restructuring the booking flow by allowing users to secure an appointment 
+                first and then select tests afterward. This approach could reduce decision pressure, better align with time-constrained users’ mental models, and potentially increase conversion in the early stages of the journey.</p>
+        </div>
+
+        <a href="index.html" class="button">
+            <span class="arrow">&larr;</span>
+            Back to Home
+          </a>
+
+
+          <div class="grey-background" id="contact">
+
+            <h2>Let’s connect!</h2>
+            <div class="wrapper-contact">
+                <div class="wrapper-row">
+                    <img class="icon" src="2phone.svg">
+                    <a href="tel:+48 514 862 925">+48 514 862 925</a>
+                </div>
+                <div class="wrapper-row2">
+                    <img class="icon" src="mail.svg">
+                    <a href="mailto:paulinalis.mail@gmail.com">paulinalis.mail@gmail.com</a>
+                </div>
+    
+                <div class="wrapper-row2">
+                    <img class="icon" src="2linkedin.svg">
+                    <a href="https://www.linkedin.com/in/lis-paulina/" target="_blank">LinkedIn</a>
+                </div>
+                
+            </div>
+    
+        </div>
+        <footer class="copyright">
+            <div>
+              <p>&copy; 2026 Paulina Lis. All rights reserved.</p>
+            </div>
+          </footer>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
