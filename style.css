@@ -844,6 +844,12 @@ line-height: 150%;
 
 }
 
+.spacing-scale {
+    max-width: 420px;  
+    width: 100%;
+    height: auto;
+  }
+
 .behance {
     display: flex;
     flex-direction: column;
