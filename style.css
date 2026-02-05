@@ -831,6 +831,13 @@ line-height: 150%;
 
 }
 
+.project-photos-xs {
+    max-width: 220px; 
+    width: 100%;
+    height: auto;
+
+}
+
 .row-photo{
     width: 80%;
 
